@@ -1,0 +1,47 @@
+/* Pages publiques de Fish Rush 3D (assistance, confidentialité) : GitHub Pages, couleurs du jeu (mer turquoise, sable, orange). */
+:root {
+  --sea: #0a8fb8;
+  --sea-deep: #075a78;
+  --sand: #fff6e3;
+  --orange: #ff8a1f;
+  --text: #22323a;
+  --muted: #5f7480;
+  --card: #ffffff;
+}
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", system-ui, sans-serif;
+  background: linear-gradient(180deg, #bfeefc 0%, var(--sand) 45%);
+  color: var(--text);
+  line-height: 1.65;
+  min-height: 100vh;
+}
+.container {
+  max-width: 680px;
+  margin: 0 auto;
+  padding: 48px 16px 64px;
+}
+.logo { text-align: center; margin-bottom: 20px; }
+.logo h1 {
+  font-size: 32px;
+  font-weight: 900;
+  letter-spacing: 3px;
+  color: var(--orange);
+  text-shadow: 0 3px 0 var(--sea-deep);
+}
+.logo .sub { color: var(--sea-deep); font-weight: 600; font-size: 14px; }
+.lang { text-align: center; margin-bottom: 28px; font-size: 14px; }
+section {
+  background: var(--card);
+  border-radius: 18px;
+  padding: 24px 20px;
+  box-shadow: 0 6px 24px rgba(7, 90, 120, 0.12);
+}
+h2 { color: var(--sea-deep); font-size: 24px; margin-bottom: 6px; }
+h3 { color: var(--sea); font-size: 17px; margin: 20px 0 6px; }
+p { margin-bottom: 10px; }
+.date { color: var(--muted); font-size: 14px; }
+.q { font-weight: 700; margin: 16px 0 4px; }
+a { color: var(--sea); font-weight: 600; }
+hr { border: 0; height: 32px; }
+footer { text-align: center; color: var(--muted); font-size: 13px; margin-top: 32px; }
